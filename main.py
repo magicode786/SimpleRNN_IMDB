@@ -12,7 +12,7 @@ reverse_word_index = {value: key for key, value in word_index.items()}
 # Load the pre-trained model with ReLU activation
 #model = load_model('simple_rnn_imdb.h5')
 # Load the trained model
-model = tf.keras.models.load_model('model.h5')
+model = tf.keras.models.load_model('simple_rnn_imdb.h5')
 
 # Step 2: Helper Functions
 # Function to decode reviews
